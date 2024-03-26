@@ -1,0 +1,30 @@
+.header-container{
+    border: solid;
+    border-color: #5DADE2;
+    background: #5DADE2;
+    border-radius: 10px;
+    width: 75%;
+    margin: 0 auto; /*Centrar el div*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-logo{
+    border: solid;
+    border-color: white;
+    background: white;
+    border-radius: 5px;
+    width: 170px;
+    height: 70px;
+    background-image: url("../img/h-logo.png");
+    background-repeat: no-repeat;
+    background-size: 150px 50px;
+    background-position: center;
+}
+
+.header-titulo{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}

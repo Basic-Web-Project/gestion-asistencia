@@ -1,0 +1,89 @@
+.nav-bar{
+    /*border: solid;
+    border-color: black;*/
+    border-radius: 10px;
+    width: 75%;
+    margin: 0 auto; /*Centrar el div*/
+}
+
+.nav-container{
+    /*border: solid;
+    border-color: red;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0; /* Elimina el relleno de la viñeta*/
+}
+
+.nav-item{
+    border: solid;
+    border-color: #5DADE2;
+    background: #5DADE2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-titulo{
+    /*border: solid;*/
+    color: black;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+.re-logo{
+    border: solid;
+    border-color: white;
+    background: white;
+    border-radius: 5px;
+    width: 170px;
+    height: 70px;
+    background-image: url("../img/entrada-personal.png");
+    background-repeat: no-repeat;
+    background-size: 70px 70px;
+    background-position: center;
+}
+
+.rs-logo{
+    border: solid;
+    border-color: white;
+    background: white;
+    border-radius: 5px;
+    width: 170px;
+    height: 70px;
+    background-image: url("../img/salida-personal.png");
+    background-repeat: no-repeat;
+    background-size: 70px 70px;
+    background-position: center;
+}
+
+.aa-logo{
+    border: solid;
+    border-color: white;
+    background: white;
+    border-radius: 5px;
+    width: 170px;
+    height: 70px;
+    background-image: url("../img/listado-personal.png");
+    background-repeat: no-repeat;
+    background-size: 70px 70px;
+    background-position: center;
+}
+
+.as-logo{
+    border: solid;
+    border-color: white;
+    background: white;
+    border-radius: 5px;
+    width: 170px;
+    height: 70px;
+    background-image: url("../img/reporte-asistencia.png");
+    background-repeat: no-repeat;
+    background-size: 70px 70px;
+    background-position: center;
+}
