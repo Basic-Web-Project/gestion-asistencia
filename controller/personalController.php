@@ -15,7 +15,13 @@
         //Funcion para registar la hora de entrada del empleado
         public function add_hora_ingreso($ci, $fecha, $hora_ingreso){
             $id = $this->model->add_hora_ingreso($ci, $fecha, $hora_ingreso);
-            return ($id != false) ? header("Location:../../../index.php?alert=success") : header("Location:registrar-entrada.php");
+            return ($id != false) ? header("Location:../../../index.php?alert=success") : header("Location:registrar-entrada.php?alert=warning");
+        }
+
+        //Funcion para registar la hora de salida del empleado
+        public function add_hora_salida($ci, $fecha, $hora_salida){
+            $id = $this->model->add_hora_salida($ci, $fecha, $hora_salida);
+            return ($id != false) ? header("Location:../../../index.php?alert=success") : header("Location:registrar-salida.php?alert=warning");
         }
     }
 ?>

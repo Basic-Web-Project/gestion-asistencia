@@ -7,7 +7,7 @@
                     </li>
                     <li class="nav-item">
                         <div class="rs-logo"></div>
-                        <a class="nav-titulo" href="">Registrar Salida</a>
+                        <a class="nav-titulo" href="/gestion-asistencia/gestion-asistencia/view/content/empleado/registrar-salida.php">Registrar Salida</a>
                     </li>
                     <li class="nav-item">
                         <div class="aa-logo"></div>

@@ -3,7 +3,7 @@
 if (isset($_GET['alert'])) {
     $alert_type = $_GET['alert'];
     if ($alert_type == 'success') {
-        echo '<script>alert("Hora de ingreso registrada con éxito"); window.location.href = "index.php";</script>';
+        echo '<script>alert("Hora registrada con éxito"); window.location.href = "index.php";</script>';
     } 
 }
 ?>

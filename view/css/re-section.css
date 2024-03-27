@@ -23,7 +23,7 @@
 .form-find-container{
     /*border: solid;
     border-color: red;*/
-    width: 55%;
+    width: 65%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -71,6 +71,23 @@
 .form-btn:hover{
     background: white;
     color: black;
+}
+
+.form-atras-btn{
+    background-image: url("../img/icon-atras.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: center;
+    text-decoration: none;
+    border: solid;
+    border-radius: 5px;
+    border-color: #2874A6;
+    background-color: #2874A6;
+    padding: 15px 30px;
+}
+
+.form-atras-btn:hover{
+    background-color: white;
 }
 
 .box{
