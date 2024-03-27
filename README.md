@@ -41,10 +41,13 @@ Desarrollar una aplicación web básica para gestionar la asistencia del persona
 > Herramientas y Técnologias a utilizada: Arquitectura MVC, XAMPP, MYSQL, VSCODE, GIT, GITHUB.
 
 > [!TIP]
-> Para ejecutar la aplicacion debe de clonar el repositorio en la carpeta (xampp)htdocs/gestion-asistencia/repo-clonado
-> Cambiar los parametros del archivo config/db.php
-> Exportar los archivos de la carpeta db file: (1)asistencia_empleado, (2)asistencia_registro (debido a la foreign key)
-> En XAMPP habilitar el servicio de Apache
+> a. Para ejecutar la aplicacion debe de clonar el repositorio en la carpeta (xampp)htdocs/gestion-asistencia/repo-clonado 
+>  <br><br>
+> b. Cambiar los parametros del archivo config/db.php 
+>  <br><br>
+> c. Exportar los archivos de la carpeta db file: (1)asistencia_empleado, (2)asistencia_registro (debido a la foreign key) 
+>  <br><br>
+> d. En XAMPP habilitar el servicio de Apache 
 
 > [!CAUTION]
-> Hay esta en desarrollo la Opción para generar un reporte de asistencia semanal.
+> Aún esta en desarrollo la Opción para generar un reporte de asistencia semanal.
