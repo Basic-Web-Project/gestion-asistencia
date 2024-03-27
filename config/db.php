@@ -1,7 +1,7 @@
 <?php
     class db{
         private $host="127.0.0.1:3306";
-        private $dbname="empleado";
+        private $dbname="asistencia";
         private $user="root";
         private $pass="Ed1Sal58@";
 

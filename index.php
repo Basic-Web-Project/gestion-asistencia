@@ -1,5 +1,15 @@
+<?php
+// Procesar el parámetro 'alert' para mostrar la alerta
+if (isset($_GET['alert'])) {
+    $alert_type = $_GET['alert'];
+    if ($alert_type == 'success') {
+        echo '<script>alert("Hora de ingreso registrada con éxito"); window.location.href = "index.php";</script>';
+    } 
+}
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -15,9 +25,6 @@
     ?>
     <?php
     require_once("./view/content/menu/menu.php")
-    ?>
-    <?php
-    require_once("./view/inc/footer.php");
     ?>
 </body>
 

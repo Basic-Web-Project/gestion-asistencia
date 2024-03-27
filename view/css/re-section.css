@@ -1,0 +1,95 @@
+.section-form-find{
+    border: solid;
+    border-color: #E5E7E9;
+    background-color: #E5E7E9;
+    border-radius: 10px 20px 0 0;
+    width: 75%;
+    padding: 20px 0 20px 0;
+    margin: 0 auto; /*Centrar el div*/
+}
+
+.section-form-result{
+    border: solid;
+    border-color: #E5E7E9;
+    background-color: #E5E7E9;
+    width: 75%;
+    padding: 0 0 20px 0;
+    margin: 0 auto; /*Centrar el div*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-find-container{
+    /*border: solid;
+    border-color: red;*/
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin: auto; /*Centrar el div*/
+}
+
+.form-result-container{
+    /*border: solid;
+    border-color: red;*/
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.form-lbl{
+    /*border: solid;
+    border-color: yellow;*/
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.form-input{
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    background: #AED6F1;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form-btn{
+    border: solid;
+    border-radius: 5px;
+    border-color: #2874A6;
+    background: #2874A6;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 40px;
+}
+
+.form-btn:hover{
+    background: white;
+    color: black;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-result-btn{
+    border: solid;
+    border-radius: 5px;
+    padding: 20px;
+    border-color: #2874A6;
+    background: #2874A6;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-result-btn:hover{
+    background: white;
+    color: black;
+}

@@ -3,7 +3,7 @@
                 <ul class="nav-container">
                     <li class="nav-item">
                         <div class="re-logo"></div>
-                        <a class="nav-titulo" href="">Registrar Entrada</a>
+                        <a class="nav-titulo" href="/gestion-asistencia/gestion-asistencia/view/content/empleado/registrar-entrada.php">Registrar Entrada</a>
                     </li>
                     <li class="nav-item">
                         <div class="rs-logo"></div>
