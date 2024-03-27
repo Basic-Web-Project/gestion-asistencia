@@ -1,0 +1,54 @@
+.section-container{
+    /*border: solid;
+    border-color: red;*/
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: auto; /*Centrar el div*/
+    padding: 0 0;
+}
+
+.section-titulo{
+    /*border: solid;
+    border-color: blue;*/
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.section-atras-btn{
+    background-image: url("../img/icon-atras.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: center;
+    text-decoration: none;
+    border: solid;
+    border-radius: 5px;
+    height: 40px;
+    border-color: #2874A6;
+    background-color: #2874A6;
+    padding: 0px 30px;
+}
+
+.section-atras-btn:hover{
+    background-color: white;
+}
+
+.table{
+    /*border: solid;
+    border-color: red;*/
+    width: 75%;
+    margin: auto; /*Centrar el div*/
+    padding: 0 0;
+}
+
+.table-head{
+    background-color: #2874A6;
+    color: white;
+}
+
+.table-body{
+    background-color: #D6EAF8;
+}

@@ -11,7 +11,7 @@
                     </li>
                     <li class="nav-item">
                         <div class="aa-logo"></div>
-                        <a class="nav-titulo" href="">Asistencia Actual</a>
+                        <a class="nav-titulo" href="/gestion-asistencia/gestion-asistencia/view/content/empleado/asistencia-actual.php">Asistencia Actual</a>
                     </li>
                     <li class="nav-item">
                         <div class="as-logo"></div>

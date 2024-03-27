@@ -23,5 +23,10 @@
             $id = $this->model->add_hora_salida($ci, $fecha, $hora_salida);
             return ($id != false) ? header("Location:../../../index.php?alert=success") : header("Location:registrar-salida.php?alert=warning");
         }
+
+        // Funcion para el Select
+        public function select_asistencia($fecha_actual){
+            return ($this->model->select_asistencia($fecha_actual)) ? $this->model->select_asistencia($fecha_actual) : false;
+        }
     }
 ?>
