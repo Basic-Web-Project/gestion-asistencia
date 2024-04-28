@@ -53,8 +53,9 @@
             // Si existe una fila con el mismo ci y fecha, realizar la actualización
             if ($existing_count > 0) {
                 // Verificar si ya existe hora de salida
-                $existing_statement = $this->PDO->prepare("SELECT COUNT(*) AS count FROM registro WHERE ci_empleado = :ci AND hora_salida IS NOT NULL");
+                $existing_statement = $this->PDO->prepare("SELECT COUNT(*) AS count FROM registro WHERE ci_empleado = :ci AND fecha_registro = :fecha AND hora_salida IS NOT NULL");
                 $existing_statement->bindParam(":ci", $ci, PDO::PARAM_INT);
+                $existing_statement->bindParam(":fecha", $fecha);
                 $existing_statement->execute();
                 $existing_row = $existing_statement->fetch(PDO::FETCH_ASSOC);
                 $existing_count = $existing_row['count'];
@@ -68,7 +69,7 @@
                     return ($update_statement->execute()) ? true : false;
                 }
             } else {
-                // Si no existe una fila con el mismo ci y fecha, puedes manejar este caso según tus necesidades
+                
                 return false;
             }
         }

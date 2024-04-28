@@ -1,30 +1,118 @@
+/*Import Tipografia*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+/*Contenedor del Encabezado*/
 .header-container{
     border: solid;
-    border-color: #5DADE2;
-    background: #5DADE2;
-    border-radius: 10px;
-    width: 75%;
-    margin: 0 auto; /*Centrar el div*/
+    border-color: #1B4F72;
+    background: #1B4F72;
+    height: 50px;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
+/*Logo del Encabezado*/
 .header-logo{
     border: solid;
     border-color: white;
     background: white;
-    border-radius: 5px;
-    width: 170px;
-    height: 70px;
-    background-image: url("../img/h-logo.png");
+    border-radius: 7px;
+    width: 80px;
+    height: 40px;
+    background-image: url("../img/logo.png");
     background-repeat: no-repeat;
-    background-size: 150px 50px;
+    background-size: 150px 70px;
     background-position: center;
 }
 
+/*Titulo del Encabezado*/
 .header-titulo{
+    border: solid;
+    border-color: transparent;
     color: white;
-    font-size: 30px;
     text-align: center;
+    /*Propiedades para el Font*/
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*Switch para cambio de Usuario: User | Admin*/
+/* Estilos para el toggle switch */
+.toggle-container { /*Si pongo la etiqueta div no funciona correctamente*/
+    border: solid;
+    border-color: transparent;
+    /*display: inline-block;
+    position: relative;*/
+    width: 100px;
+    height: 50px;
+    /* Estilos para centrar contenido */
+    display: flex; /* Utilizamos flexbox */
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+}
+
+/*Eliminar el cuadro del check*/
+.toggle-input{
+    display: none;
+}
+
+/* Estilo base del toggle */
+.toggle-slider {
+    border: solid;
+    border-color: #95A5A6;
+    position: relative;
+    /*display: block;*/
+    display: flex;
+    width: 100%;
+    height: 80%;
+    background-color: #95A5A6;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+/* Bolita del toggle */
+.toggle-slider::before {
+    border: solid;
+    border-color: white;
+    content: "";
+    position: relative;
+    top: 0; /* Moviemiento suave*/
+    left: 0; /*Movimiento suave*/
+    width: 40px;
+    background-color: white;
+    border-radius: 7px;
+    transition: 0.4s;
+}
+
+/* Cambio de estilo cuando el toggle está activado para el movimiento*/
+input:checked + .toggle-slider::before {
+    left: calc(100% - 46px);
+}
+
+/* Icono del toggle */
+.toggle-slider::after {
+    border: solid;
+    border-color: white;
+    content: ""; /* Importante: Asegúrate de dejar content como una cadena vacía */
+    background-image: url('../img/user.png'); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen según sea necesario */
+    background-position: center; /* Centra la imagen */
+    width: 28px; /* Ancho deseado de la imagen */
+    height: 28px; /* Alto deseado de la imagen */
+    position: absolute;
+    top: 50%;
+    left: 6px;
+    transform: translateY(-50%);
+    transition: 0.4s;
+}
+
+/* Cambio de icono cuando el toggle está activado */
+input:checked + .toggle-slider::after {
+    content: ""; /* Importante: Asegúrate de dejar content como una cadena vacía */
+    background-image: url('../img/admin.png'); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen según sea necesario */
+    left: calc(100% - 40px);
 }

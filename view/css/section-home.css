@@ -1,0 +1,64 @@
+/*Import Tipografia*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.home-container{
+    /*border: solid;
+    border-color: red;*/
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: row;
+}
+
+/*Logo del Home*/
+.home-ilustracion{
+    border: solid;
+    border-color: #EBF5FB;
+    background: #EBF5FB;
+    /*border-left-color: #2E86C1;
+    border-left-width: 5px;
+    border-start-start-radius: 5px;
+    border-end-start-radius: 5px;*/
+    /*width: 80px;*/
+    height: calc(100vh - 106px);
+    width: 70vw;
+    background-image: url("../img/ilu-calendario.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+/*Mensaje del Home*/
+.home-mensaje{
+    /*border: solid;
+    border-color: blue;*/
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: calc(100vh - 106px);
+    width: 30vw;
+    /*Propiedades para el Font*/
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.mensaje-estatico{
+    border: solid;
+    border-color: transparent;
+    border-right-color: #2E86C1;
+    border-right-width: 7px;
+    padding-left: 12px;
+    height: fit-content;
+}
+
+.mensaje-dinamico{
+    border: solid;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-color: #2E86C1;
+    border-right-width: 8px;
+    color: #2E86C1;
+}

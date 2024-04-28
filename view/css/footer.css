@@ -1,0 +1,21 @@
+.footer-container{
+    border: solid;
+    border-color: #1B4F72;
+    background: #1B4F72;
+    height: fit-content;
+}
+
+.footer-autor{
+    /*border: solid;
+    border-color: yellow;*/
+    height: fit-content;
+}
+
+.footer-texto{
+    /*border: solid;
+    border-color: red;*/
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
